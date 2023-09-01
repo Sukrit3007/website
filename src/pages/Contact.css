@@ -1,0 +1,38 @@
+.contact-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+.contact-links{
+    color: #000;
+    text-align: left;
+    font-family: 'SF Pro', sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    letter-spacing: -0.0525rem;
+    text-decoration: none;
+    transition: transform 0.3s; 
+}
+.contact-links:hover{
+    transform: scale(1.1); 
+}
+@media screen and (max-width: 800px) {
+
+    .contact-links{
+        font-size: 4rem;
+        letter-spacing: -0.04375rem;
+    }
+  }
+
+
+@media screen and (max-width: 400px) {
+    .contact-links{
+        font-size: 2rem;
+        letter-spacing: -0.03063rem;
+    }
+  }

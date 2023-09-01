@@ -1,0 +1,26 @@
+/* About.css */
+
+.about-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .about-p {
+    text-align: left;
+    font-size: 1.5rem;
+    max-width: 600px; 
+    padding: 20px;
+  }
+  
+  @media screen and (max-width:800px){
+    .about-p{
+        font-size: 1.3rem;
+    }
+  }
+  @media screen and (max-width:600px){
+    .about-p{
+        font-size: 1rem;
+    }
+  }
