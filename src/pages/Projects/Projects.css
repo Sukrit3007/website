@@ -22,13 +22,10 @@
         font-size: 0.8rem;
     }
 }
-.projects-div{
-    /* padding-bottom: 50px; */
-}
 
 .projects-h1{
     color: #ffffff;
-    font-family: SF Pro;
+    /* font-family: SF Pro; */
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
@@ -37,7 +34,7 @@
 }
 .projects-p{
     color: #ffffff;
-    font-family: SF Pro;
+    /* font-family: SF Pro; */
     font-size: 1rem;
     font-style: normal;
     font-weight: 540;
