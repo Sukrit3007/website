@@ -5,15 +5,16 @@ body{
   height: 100vh;
   margin: 0;
   overflow: hidden;
-  background: radial-gradient(circle, #ec03f5 0%, white 100%);
+  background: radial-gradient(circle, #0004ff 0%, rgb(151, 148, 148) 100%);
   background-size: 150% 150%;
   animation: gradientAnimation 2s ease infinite alternate; 
 }
 body.dark {
-  background: radial-gradient(circle, #ec03f5 0%, black 100%);
+  background: radial-gradient(circle, #0004ff 0%, rgb(30, 29, 29) 100%);
   background-size: 150% 150%;
   animation: gradientAnimation 2s ease infinite alternate; 
 }
+
 
 @keyframes gradientAnimation {
   0% {
@@ -25,6 +26,7 @@ body.dark {
 }
 .app-h4{
   position: fixed;
+  color: white;
   top: 0;
   left: 50%;
   transform: translateX(-50%);

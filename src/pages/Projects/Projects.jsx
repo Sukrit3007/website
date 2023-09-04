@@ -9,8 +9,8 @@ function Projects(props) {
         <div key={index} className='projects-div'>
           <h1 className='projects-h1'>{project.heading}</h1>
           <p className='projects-p'>{project.description}</p>
-          <button className='projects-button'><a className='projects-a' href={project.InfoLink}>Source↗</a></button>
-          <button className='projects-button'><a className='projects-a' href={project.DemoLink}>Live Demo↗</a></button>
+          <button className='projects-button'><a className='projects-a' href={project.InfoLink} target="_blank">Source↗</a></button>
+          <button className='projects-button'><a className='projects-a' href={project.DemoLink} target="_blank">Live Demo↗</a></button>
         </div>
       ))}
     </div>

@@ -1,6 +1,7 @@
 /* About.css */
 
 .about-body {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +9,7 @@
   }
   
   .about-p {
-    text-align: left;
+    text-align:left;
     font-size: 1.5rem;
     max-width: 600px; 
     padding: 20px;
@@ -21,6 +22,6 @@
   }
   @media screen and (max-width:600px){
     .about-p{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
   }
