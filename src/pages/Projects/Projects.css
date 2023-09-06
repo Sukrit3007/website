@@ -1,5 +1,4 @@
 .projects-body {
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     height: auto;
@@ -39,36 +38,36 @@
 }
 .projects-div{
     align-items: start;
-    padding: 10px;
-    margin: 10px;
+    padding: 12px;
+    margin: 12px;
 
 }
 
 .projects-h1{
     color: #ffffff;
-    font-family: SF Pro;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 100%; /* 1.5rem */
+    line-height: 100%; 
     letter-spacing: -0.0525rem;
 }
 .projects-p{
     color: #ffffff;
-    font-family: SF Pro;
     font-size: 1rem;
     font-style: normal;
     font-weight: 540;
-    line-height: 100%; /* 1.5rem */
+    line-height: 100%;
     letter-spacing: -0.0525rem;
 }
 .projects-button{
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 64px 64px 64px 64px;
     margin-left: 5px;
-    font-family: SF Pro;
-    padding: 5px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     transition: transform 0.3s;
 }
 .projects-button:hover{
@@ -83,11 +82,6 @@
     line-height: 100%;
     letter-spacing: -0.0525rem;
     text-decoration: none;
-
-    /* border: 2px solid black;
-    border-radius: 10px 10px 10px 10px;
-    padding: 5px;
-    transition: transform 0.3s;  */
 }
 
 .projects-a:hover {
