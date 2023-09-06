@@ -50,6 +50,7 @@
     font-weight: 700;
     line-height: 100%; 
     letter-spacing: -0.0525rem;
+
 }
 .projects-p{
     color: #ffffff;
@@ -61,6 +62,7 @@
 }
 .projects-button{
     background-color: rgb(255, 255, 255);
+    border: 2px solid white;
     border-radius: 64px 64px 64px 64px;
     margin-left: 5px;
 
@@ -75,7 +77,6 @@
 }
 .projects-a{
     color: #000000;
-    font-family: SF Pro;
     font-size: 1rem;
     font-style: normal;
     font-weight: 540;
